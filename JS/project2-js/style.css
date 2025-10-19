@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* border: 20px solid red; */
+    /* background-color: gray; */
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    /* border: 5px solid green; */
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.openModelButton{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgb(45, 136, 45);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.model{
+
+    background-color: rgba(128, 128, 128, 0.603);
+    /* background-color: transparent; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    place-items: center;
+}
+.open-model{
+    display: none;
+}
+.model-content{
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+}
+.model-buttons{
+    margin-top: 1rem;
+    text-align: center;
+
+}
+.model-button{
+    padding: .2rem .5rem;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: gray;
+    border-radius: 5px;
+
+}
+.close-button{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: .1rem .2rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(83, 78, 78, 0.658);
+}

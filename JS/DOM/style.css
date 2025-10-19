@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div~h1{
+    background-color: gray;
+} */
+.item3{
+    color: rgb(29, 207, 59);
+}
+.list{
+    /* background-color: green; */
+    text-align: center;
+    
+    list-style: none;
+}
+li{
+    margin-bottom: 10px;
+    padding: 1rem 1.4rem;
+    background-color: green;
+}
